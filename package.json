@@ -1,0 +1,23 @@
+{
+  "name": "jurl",
+  "version": "0.0.0",
+  "description": "cURL in JavaScript.",
+  "main": "index.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fiveisprime/jurl.git"
+  },
+  "keywords": [
+    "curl",
+    "rest"
+  ],
+  "author": "Matt Hernandez <matt@modulus.io>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fiveisprime/jurl/issues"
+  },
+  "homepage": "https://github.com/fiveisprime/jurl"
+}

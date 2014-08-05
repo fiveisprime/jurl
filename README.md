@@ -1,4 +1,4 @@
 jurl
 ====
 
-cURL-style in JavaScript.
+cURL in JavaScript.
