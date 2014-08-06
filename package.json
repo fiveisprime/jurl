@@ -1,8 +1,8 @@
 {
   "name": "jurl",
   "version": "0.0.0",
-  "description": "cURL in JavaScript.",
-  "main": "index.js",
+  "description": "Like cURL, but with some reasonable defaults for modern web developers.",
+  "bin": "bin/jurl",
   "scripts": {
     "test": "make test"
   },
@@ -19,5 +19,9 @@
   "bugs": {
     "url": "https://github.com/fiveisprime/jurl/issues"
   },
-  "homepage": "https://github.com/fiveisprime/jurl"
+  "homepage": "https://github.com/fiveisprime/jurl",
+  "dependencies": {
+    "colors": "~0.6.2",
+    "commander": "~2.3.0"
+  }
 }

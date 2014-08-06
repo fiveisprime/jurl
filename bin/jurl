@@ -1,0 +1,16 @@
+#!/usr/bin/env node
+
+var program = require('commander');
+
+require('../lib/cli')(
+  program,
+  require('../lib/util')
+);
+
+program
+  .version(require('../package').version)
+  .parse(process.argv);
+
+if (!program.args.length) {
+  program.help();
+}
